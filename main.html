@@ -5,11 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+	
     <link rel="stylesheet" href="styles.css">
+
+	<style>
+		.table{
+			width:100%;
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+
+		.table th,
+		.table td{border: 1px solid black;}
+
+		.head{
+			background-color:blue;
+			color:white;
+		}
+
+		.body{
+			text-align:center;
+		}
+
+		.body tr:nth-child(odd){
+			background-color:lightgray;
+		}
+		
+		.body tr:nth-child(even){
+			background-color:lightcyan;
+		}
+
+	</style>
 </head>
 <body>
     <!-- add table here -->
 
-        
+	<table class='table'>
+		<thead class='head'>
+			<tr>
+				<th>Name</th>
+				<th>Ph. No.</th>
+				<th>Email</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+		<tbody class='body'>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 </html>
